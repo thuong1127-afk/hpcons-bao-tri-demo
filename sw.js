@@ -1,6 +1,6 @@
 // Service worker: lưu khung ứng dụng để mở được khi mạng yếu/mất mạng.
 // KHÔNG lưu dữ liệu API (Supabase) — dữ liệu luôn lấy mới; báo cáo chờ gửi nằm trong IndexedDB.
-const CACHE = 'hpcons-shell-v6'
+const CACHE = 'hpcons-shell-v7'
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png']
 
 self.addEventListener('install', event => {
